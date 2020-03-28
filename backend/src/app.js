@@ -10,4 +10,4 @@ app.use(express.json()); //Avisa ao express que vai converter o JSON em objetoJS
 app.use(routes);
 app.use(errors());
 
-app.listen(3333);
+module.exports = app;
